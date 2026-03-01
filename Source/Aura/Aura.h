@@ -4,3 +4,7 @@
 
 #include "CoreMinimal.h"
 
+namespace FConstants
+{
+	constexpr int32 CustomDepthRed = 250;
+}
