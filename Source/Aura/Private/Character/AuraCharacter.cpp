@@ -48,7 +48,7 @@ void AAuraCharacter::InitAbilityActorInfo()
 	
 	if (AAuraPlayerController* AuraPlayerController = Cast<AAuraPlayerController>(GetController()))
 	{
-		// Can not use check, because it will be called by server(has all player controller), 
+		// Can not use check macro, because it will be called by server(has all player controller), 
 		// client(has only local player controller), so AuraPlayerController can be nullptr
 		if (AAuraHUD* AuraHUD = Cast<AAuraHUD>(AuraPlayerController->GetHUD()))
 		{
