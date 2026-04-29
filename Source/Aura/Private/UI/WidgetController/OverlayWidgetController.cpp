@@ -54,5 +54,5 @@ void UOverlayWidgetController::ManaChanged(const FOnAttributeChangeData& Data) c
 
 void UOverlayWidgetController::MaxManaChanged(const FOnAttributeChangeData& Data) const
 {
-    OnMaxHealthChanged.Broadcast(Data.NewValue);
+    OnMaxManaChanged.Broadcast(Data.NewValue);
 }
